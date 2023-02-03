@@ -148,10 +148,35 @@ img {
     .row{
         flex-direction: column;
     }
-    .col{
-        width: 100%; 
+
+    .lessons .col {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .card{
+        padding-bottom: 50px;
+    }
+    .steps .col{
+        width: 100%;
+    }
+    .why-us .col-left{
+        width: 100%;
+    }
+    .why-us .col-right{
+        width: 100%;
+    }
+    h3{
+        padding-top: 50px;
     }
 
  }
 
+    /* Desktop version */
+    @media screen and (min-width: 768px) {
 
+        .container{
+            width: 90%;
+            max-width: 1200px;
+        }
+    
+     }
